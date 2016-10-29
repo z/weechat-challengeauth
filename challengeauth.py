@@ -35,6 +35,9 @@
 # History:
 #
 # 2016-10-29, Tyler Mulligan <z@xnz.me>
+#     version 0.1.1: Incorrectly called this a 'plugin', it's a script.
+#
+# 2016-10-29, Tyler Mulligan <z@xnz.me>
 #     version 0.1.0: Initial release, feature-matching challengeauth.rb
 
 import hashlib
@@ -44,7 +47,7 @@ from collections import namedtuple
 
 SCRIPT_NAME     = "challengeauth"
 SCRIPT_AUTHOR   = "z <z@xnz.me>"
-SCRIPT_VERSION  = "0.1.0"
+SCRIPT_VERSION  = "0.1.1"
 SCRIPT_LICENSE  = "MIT"
 SCRIPT_DESC     = "Authenticate with QuakeNet using CHALLENGEAUTH"
 SCRIPT_COMMAND  = "challengeauth"
