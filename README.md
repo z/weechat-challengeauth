@@ -2,6 +2,8 @@
 
 A WeeChat script for authenticating with QuakeNet using [CHALLENGEAUTH](https://www.quakenet.org/development/challengeauth).
 
+[![Build Status](https://travis-ci.org/z/weechat-challengeauth.svg?branch=develop)](https://travis-ci.org/z/weechat-challengeauth)
+
 ## Installation
 
 * Put `challengeauth.py` in `~/.weechat/python/`
