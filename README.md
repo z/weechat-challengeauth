@@ -1,6 +1,6 @@
 # weechat-challengeauth
 
-A WeeChat plugin for authenticating with QuakeNet using [CHALLENGEAUTH](https://www.quakenet.org/development/challengeauth).
+A WeeChat script for authenticating with QuakeNet using [CHALLENGEAUTH](https://www.quakenet.org/development/challengeauth).
 
 ## Installation
 

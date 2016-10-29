@@ -149,8 +149,6 @@ def challenge_notice(modifier, data, server, line):
     command = parts[3][1::]
     challenge = parts[4]
 
-    weechat.prnt("", command)
-
     if host != qbot_host:
         weechat.prnt("", "Response from wrong user")
         return line
