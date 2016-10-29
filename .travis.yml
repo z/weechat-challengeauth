@@ -9,5 +9,5 @@ python:
 install:
   - pip install -r dev-requirements.in
 script:
-  - tox
+  - py.test
   - flake8 --ignore=E221 challengeauth.py test_challengeauth.py
