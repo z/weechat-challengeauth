@@ -10,4 +10,4 @@ install:
   - pip install -r dev-requirements.in
 script:
   - py.test
-  - flake8 --ignore=E221 challengeauth.py test_challengeauth.py
+  - flake8 --ignore=E221,E501 challengeauth.py test_challengeauth.py

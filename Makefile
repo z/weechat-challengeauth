@@ -21,7 +21,7 @@ clean:
 	@rm -rf .tox
 
 lint:
-	@flake8 --ignore=E221 challengeauth.py test_challengeauth.py
+	@flake8 --ignore=E221,E501 challengeauth.py test_challengeauth.py
 
 tests:
 	@py.test
