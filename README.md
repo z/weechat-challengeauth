@@ -18,10 +18,10 @@ ln -s ../challengeauth.py
 
 *You probably won't have to change these*
 
-| Option                     | Default                         | Description                        |
-|----------------------------|---------------------------------|------------------------------------|
-| `challengeauth_qbot_user`  | `Q@CServe.quakenet.org`         | The qbot user to authenticate to.  |
-| `challengeauth_qbot_host`  | `Q!TheQBot@CServe.quakenet.org` | The qbot host for the qbot user.   |
+| Option                         | Default                             | Description                        |
+|--------------------------------|-------------------------------------|------------------------------------|
+| `challengeauth_qbot_user`      | `Q@CServe.quakenet.org`             | The Q bot user to authenticate to. |
+| `challengeauth_qbot_hostmask`  | `Q!TheQBot@CServe.quakenet.org`     | The hostmask for the Q bot user.   |
 
 ## Tests
 

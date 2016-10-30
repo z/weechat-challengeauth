@@ -65,9 +65,9 @@ OPTIONS = {
         'Q@CServe.quakenet.org',
         'The qbot user to authenticate to.'
     ),
-    'challengeauth_qbot_host': (
+    'challengeauth_qbot_hostmask': (
         'Q!TheQBot@CServe.quakenet.org',
-        'The qbot host for the qbot user.'
+        'The qbot challengeauth_qbot_hostmask for the qbot user.'
     ),
 }
 
@@ -154,11 +154,11 @@ def challenge_notice(modifier, data, server, line):
         weechat.prnt("", "Response had more arguments than expected")
         return line
 
-    host = parts[0][1::]
+    hostmask = parts[0][1::]
     command = parts[3][1::]
     challenge = parts[4]
 
-    if host != qbot_host:
+    if hostmask != qbot_hostmask:
         weechat.prnt("", "Response from wrong user")
         return line
 
@@ -212,7 +212,7 @@ if __name__ == "__main__" and import_ok:
 
         requests = {}
         qbot_user = weechat.config_get_plugin('challengeauth_qbot_user')
-        qbot_host = weechat.config_get_plugin('challengeauth_qbot_host')
+        qbot_hostmask = weechat.config_get_plugin('challengeauth_qbot_hostmask')
 
         weechat.hook_command(SCRIPT_COMMAND,
                              SCRIPT_DESC,
