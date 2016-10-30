@@ -10,8 +10,9 @@ A WeeChat script for authenticating with QuakeNet using [CHALLENGEAUTH](https://
 * Create a symbolic link for it in `~/.weechat/python/autoload/` 
 
 ```
-cd ~/.weechat/python/autoload
-ln -s ../challengeauth.py
+mkdir -p ~/.weechat/python/autoload
+wget https://raw.githubusercontent.com/z/weechat-challengeauth.py -P ~/.weechat/python/
+cd ~/.weechat/python/autoload && ln -s ../challengeauth.py
 ```
 
 ## Options
