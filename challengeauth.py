@@ -105,7 +105,7 @@ def get_server_buffer(server):
 
 
 def quakenet_lowercase(string):
-    lowercase_string = string
+    lowercase_string = string.lower()
 
     # was specified https://www.quakenet.org/development/challengeauth
     lower_symbols = {
